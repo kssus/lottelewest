@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon-removebg-preview.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/be050517f7.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+  <title>portfolio</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+        <img src="img/logo.png" alt="롯데캐슬로고" />
+        <a href="#" class="navbar__title">Lotte Castle Lewest</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu-item" data-link="#home">Home</li>
+      <li class="navbar__menu-item" data-link="#about">About</li>
+      <li class="navbar__menu-item" data-link="#skills">Skills</li>
+      <li class="navbar__menu-item" data-link="#mywork">Mywork</li>
+      <li class="navbar__menu-item" data-link="#testimonials">Testimonials</li>
+      <li class="navbar__menu-item" data-link="#Appendix">Appendix</li>
+      <li class="navbar__menu-item" data-link="#contact">Contact</li>
+    </ul>
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </nav> 
+  
+  <!-- Home -->
+  <section id="home" class="section">
+    <div class="slider" id="slider">
+        <div class="slideItem item"></div>
+        <button class="slide__Btn prevBtn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <button class="slide__Btn nextBtn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <ul class="slide__pagination"></ul>
+    </div>
+    <div class="section__container">
+      <div class="home__content">
+        <h2 class="home__description">마곡 MICE복합단지의 고품격 주거시설</h2>
+        <h1 class="home__title">Magok LotteCastle Lewest</h1>
+        <button class="home__contact">☏ 010-9505-6242</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="section__container">
+      <h1>About</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure possimus rem sequi? Nihil, est impedit dignissimos consequatur totam, odit deserunt doloremque laudantium similique corrupti, iusto optio rerum in deleniti officia. Iure possimus rem sequi? Nihil, est impedit dignissimos consequatur totam, odit deserunt doloremque laudantium similique corrupti, iusto optio rerum in deleniti officia.</p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">HTML, CSS, JavaScript, TypeScript,<br />
+            React, Vue, Web APIs</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-mobile"></i>
+          </div>
+          <div class="major__title">Mobile</div>
+          <div class="major__description">Android, iOS, React Native, Flutter,<br />
+            Java, Swift, Kotlin</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <div class="major__title">Back-end</div>
+          <div class="major__description">Java, JavaScript, Go, NodeJS,<br />
+            Rest APIs, GraphGL</div>
+        </div>
+      </div>
+      <div class="about__job">
+        <div class="job">
+          <img src="img/job/samsung-logo.png" alt="samsung logo" class="job__logo">
+          <div class="job__description">
+          <p class="job__name">Currently working at Samsung as Software Engineer</p>
+          <p class="job__period">2019 Sept - Until now</p>
+        </div>
+      </div>
+        <div class="job">
+          <img src="img/job/samsung-logo.png" alt="samsung logo" class="job__logo">
+          <div class="job__description">
+            <p class="job__name">Currently working at Samsung as Software Engineer</p>
+            <p class="job__period">2019 Sept - Until now</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">
+      <h1>Skills</h1>
+      <h2>Skills & Attribute</h2>
+      <p>Experience with all phases of the software life-cycle. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.</p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <div class="skills">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill__description">
+              <span>HTML</span>
+              <span>99%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 99%"></div>
+            </div>
+            <div class="skill__description">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%"></div>
+            </div>
+            <div class="skill__description">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%"></div>
+            </div>
+            <div class="skill__description">
+              <span>TypeScript</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%"></div>
+            </div>
+            <div class="skill__description">
+              <span>React</span>
+              <span>88%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 88%"></div>
+            </div>
+            <div class="skill__description">
+              <span>NodeJS</span>
+              <span>77%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 77%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools">
+              <li><span>Visual Studio Code</span></li>
+              <li><span>IntelliJ</span></li>
+              <li><span>Adroid StudioCode</span></li>
+              <li><span>iOS development tools</span></li>
+              <li><span>Sketch app</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">Etc</h3>
+            <ul class="etc">
+              <li><span>Git</span></li>
+              <li><span>Scrum master</span></li>
+              <li><span>Math</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mywork -->
+  <section id="mywork" class="section">
+    <div class="section__container">
+      <h1>My work</h1>
+      <h2>Projects</h2>
+      <div class="work__categories">
+        <button class="category__btn active" data-filter="*">All <span class="category__count">8</span></button>
+        <button class="category__btn" data-filter="front-end">Front-end <span class="category__count">3</span></button>
+        <button class="category__btn" data-filter="back-end">Back-end <span class="category__count">3</span></button>
+        <button class="category__btn" data-filter="mobile">Mobile <span class="category__count">2</span></button>
+      </div>
+      <div class="work__projects">
+        <a href="#" class="project" data-type="front-end">
+          <img src="img/project/youtube.png" alt="youtube">
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Clone coding with Html, Css</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="back-end">
+          <img src="img/project/navbar.png" alt="navbar">
+          <div class="project__description">
+            <h3>Responsive Navbar</h3>
+            <span>Html, Css with media query</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="front-end">
+          <img src="img/project/game.png" alt="game">
+          <div class="project__description">
+            <h3>Shopping mall game</h3>
+            <span>Html, Css, Javascript, Json</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="front-end">
+          <img src="img/project/game.png" alt="navbar">
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="back-end">
+          <img src="img/project/game.png" alt="youtube">
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="mobile">
+          <img src="img/project/game.png" alt="navbar">
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="back-end">
+          <img src="img/project/game.png" alt="game">
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="#" class="project" data-type="mobile">
+          <img src="img/project/game.png" alt="navbar">
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="section__container">
+      <h1>Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="img/testimonials/testi.png" alt="avatar" class="testimonial__avatar">
+          <div class="testimonial__speechBubble">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga libero nulla eveniet aperiam laborum, quis provident quibusdam officiis reprehenderit, placeat neque perspiciatis vero explicabo tempora, dignissimos accusantium inventore ducimus!
+            </p>
+            <p class="name"><a href="#">Ks Lee</a> / Samsung</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__speechBubble">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga libero nulla eveniet aperiam laborum, quis provident quibusdam officiis reprehenderit, placeat neque perspiciatis vero explicabo tempora, dignissimos accusantium inventore ducimus!
+            </p>
+            <p class="name"><a href="#">Ks Lee</a> / Samsung</p>
+          </div>
+          <img src="img/testimonials/testi.png" alt="avatar" class="testimonial__avatar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Device -->
+    <section class="section" id="device">
+      <div class="section__container">
+        <div class="device__container">
+          <div class="device">
+            <h3>Control from Any Device</h3>
+            <p>This is Photoshop's Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque reiciendis natus mollitia, architecto libero. Necessitatibus esse sed quae,</p>
+          </div>
+          <div class="device__img">
+            <img src="img/slide/monitor.png" id="monitor" class="device__item" alt="monitor">
+            <img src="img/slide/phone.png" id="phone" class="device__item" alt="phone">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+      <div class="section__container">
+        <div class="features">
+          <div class="speed feature">
+            <img src="img/slide/feature_icon_speed.png" class="imgAction" alt="speed">
+            <h4 class="feature__name">Speed</h4>
+          </div>
+          <div class="support feature">
+            <img src="img/slide/feature_icon_support.png" class="imgAction" alt="support">
+            <h4 class="feature__name">Support</h4>
+          </div>
+          <div class="smart feature">
+            <img src="img/slide/feature_icon_smart.png" class="imgAction" alt="smart">
+            <h4 class="feature__name">Smart</h4>
+          </div>
+        </div>   
+      </div>
+    </section>  
+
+    <!-- Location -->
+    <section id="location" class="section">
+      <div class="stripes">
+        <div class="stripe" id="s1"></div>
+        <div class="stripe" id="s2"></div>
+        <div class="stripe" id="s3"></div>
+        <div class="stripe" id="s4"></div>
+        <div class="stripe" id="s5"></div>
+        <div class="stripe" id="s6"></div>
+        <div class="stripe" id="s7"></div>
+        <div class="stripe" id="s8"></div>
+        <div class="stripe" id="s9"></div>
+        <div class="stripe" id="s10"></div>
+      </div>
+      <div class="section__container">
+        <div class="location">
+            <img src="img/slide/location_map.png" class="locationItem map" alt="location map" >
+            <img src="img/slide/location_radar.png" class="locationItem radar" alt="location ">
+        </div>
+        <div class="explanation">
+          <h3>Over 50 server locations</h3>
+          <p>This is Photoshop's Lorem ipsum dolor sit amet consectetur adipisicing elit. Nequeeaque reiciendis natus mollitia, architecto libero. Necessitatibus esse sed quae,</p>
+        </div>
+      </div>
+    </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="section__container">
+      <h1 class="contact__title">Let's talk</h1>
+      <h3 class="contact__email">kssus7@gmail.com</h3>
+      <div class="contact__link">
+        <a href="#">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-linkedin"></i>          
+        </a>
+      </div>
+      <p class="contact__rights">2022 Dream Coding KS Lee - All rights reserved</p>
+    </div>
+    <div class="arrow-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+  </section>
+</body>
+</html>
