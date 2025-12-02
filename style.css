@@ -266,13 +266,13 @@ p {
 
 .major__icon .fa-mobile,
 .major__icon .fa-server,
-.major__icon .fa-html5 {
+.major__icon .fa-map-location {
   transition: all var(--animation-duration) ease;
 }
 
 .major__icon .fa-mobile:hover,
 .major__icon .fa-server:hover,
-.major__icon .fa-html5:hover {
+.major__icon .fa-map-location:hover {
   transform: rotate(30deg) scale(1.1);  
   color: var(--color-orange);
 }
